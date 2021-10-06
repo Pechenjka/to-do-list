@@ -1,0 +1,31 @@
+.table {
+    display: flex;
+    margin-bottom: 10px;
+    border: 1px rgba(0, 0, 0, 0.125) solid;
+    border-radius: 5px;
+}
+
+.table__title {
+    padding: 10px 10px;
+    max-width: max-content;
+    background-color: #7f5486;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+    border-right: 1px rgba(0, 0, 0, 0.125) solid;
+    border-left: 1px rgba(0, 0, 0, 0.125) solid;
+    color: white;
+}
+
+.table__title:first-of-type {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.table__text {
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: max-content;
+    font-size: 15px;
+    margin: auto;
+}
